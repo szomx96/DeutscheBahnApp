@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D5A3481224BC288005B3DC0 /* TrainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A3480224BC288005B3DC0 /* TrainCell.swift */; };
+		2DB42CB1224B94E600118723 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB42CB0224B94E600118723 /* AppDelegate.swift */; };
+		2DB42CB6224B94E600118723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB42CB4224B94E600118723 /* Main.storyboard */; };
+		2DB42CB8224B94E900118723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB42CB7224B94E900118723 /* Assets.xcassets */; };
+		2DB42CBB224B94E900118723 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB42CB9224B94E900118723 /* LaunchScreen.storyboard */; };
+		2DB42CC6224B94E900118723 /* DeutscheBahnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB42CC5224B94E900118723 /* DeutscheBahnTests.swift */; };
+		2DB42CD1224B94E900118723 /* DeutscheBahnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB42CD0224B94E900118723 /* DeutscheBahnUITests.swift */; };
+		2DB42CE1224B972700118723 /* TrainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB42CE0224B972700118723 /* TrainTableViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2DB42CC2224B94E900118723 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DB42CA5224B94E600118723 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DB42CAC224B94E600118723;
+			remoteInfo = DeutscheBahn;
+		};
+		2DB42CCD224B94E900118723 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2DB42CA5224B94E600118723 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2DB42CAC224B94E600118723;
+			remoteInfo = DeutscheBahn;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D5A3480224BC288005B3DC0 /* TrainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainCell.swift; sourceTree = "<group>"; };
+		2DB42CAD224B94E600118723 /* DeutscheBahn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeutscheBahn.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB42CB0224B94E600118723 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2DB42CB5224B94E600118723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2DB42CB7224B94E900118723 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2DB42CBA224B94E900118723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2DB42CBC224B94E900118723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DB42CC1224B94E900118723 /* DeutscheBahnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeutscheBahnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB42CC5224B94E900118723 /* DeutscheBahnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeutscheBahnTests.swift; sourceTree = "<group>"; };
+		2DB42CC7224B94E900118723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DB42CCC224B94E900118723 /* DeutscheBahnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeutscheBahnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2DB42CD0224B94E900118723 /* DeutscheBahnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeutscheBahnUITests.swift; sourceTree = "<group>"; };
+		2DB42CD2224B94E900118723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2DB42CE0224B972700118723 /* TrainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainTableViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2DB42CAA224B94E600118723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB42CBE224B94E900118723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB42CC9224B94E900118723 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2DB42CA4224B94E600118723 = {
+			isa = PBXGroup;
+			children = (
+				2DB42CAF224B94E600118723 /* DeutscheBahn */,
+				2DB42CC4224B94E900118723 /* DeutscheBahnTests */,
+				2DB42CCF224B94E900118723 /* DeutscheBahnUITests */,
+				2DB42CAE224B94E600118723 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2DB42CAE224B94E600118723 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2DB42CAD224B94E600118723 /* DeutscheBahn.app */,
+				2DB42CC1224B94E900118723 /* DeutscheBahnTests.xctest */,
+				2DB42CCC224B94E900118723 /* DeutscheBahnUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2DB42CAF224B94E600118723 /* DeutscheBahn */ = {
+			isa = PBXGroup;
+			children = (
+				2DB42CE0224B972700118723 /* TrainTableViewController.swift */,
+				2DB42CB0224B94E600118723 /* AppDelegate.swift */,
+				2DB42CB4224B94E600118723 /* Main.storyboard */,
+				2D5A3480224BC288005B3DC0 /* TrainCell.swift */,
+				2DB42CB7224B94E900118723 /* Assets.xcassets */,
+				2DB42CB9224B94E900118723 /* LaunchScreen.storyboard */,
+				2DB42CBC224B94E900118723 /* Info.plist */,
+			);
+			path = DeutscheBahn;
+			sourceTree = "<group>";
+		};
+		2DB42CC4224B94E900118723 /* DeutscheBahnTests */ = {
+			isa = PBXGroup;
+			children = (
+				2DB42CC5224B94E900118723 /* DeutscheBahnTests.swift */,
+				2DB42CC7224B94E900118723 /* Info.plist */,
+			);
+			path = DeutscheBahnTests;
+			sourceTree = "<group>";
+		};
+		2DB42CCF224B94E900118723 /* DeutscheBahnUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2DB42CD0224B94E900118723 /* DeutscheBahnUITests.swift */,
+				2DB42CD2224B94E900118723 /* Info.plist */,
+			);
+			path = DeutscheBahnUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2DB42CAC224B94E600118723 /* DeutscheBahn */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DB42CD5224B94E900118723 /* Build configuration list for PBXNativeTarget "DeutscheBahn" */;
+			buildPhases = (
+				2DB42CA9224B94E600118723 /* Sources */,
+				2DB42CAA224B94E600118723 /* Frameworks */,
+				2DB42CAB224B94E600118723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DeutscheBahn;
+			productName = DeutscheBahn;
+			productReference = 2DB42CAD224B94E600118723 /* DeutscheBahn.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2DB42CC0224B94E900118723 /* DeutscheBahnTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DB42CD8224B94E900118723 /* Build configuration list for PBXNativeTarget "DeutscheBahnTests" */;
+			buildPhases = (
+				2DB42CBD224B94E900118723 /* Sources */,
+				2DB42CBE224B94E900118723 /* Frameworks */,
+				2DB42CBF224B94E900118723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DB42CC3224B94E900118723 /* PBXTargetDependency */,
+			);
+			name = DeutscheBahnTests;
+			productName = DeutscheBahnTests;
+			productReference = 2DB42CC1224B94E900118723 /* DeutscheBahnTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2DB42CCB224B94E900118723 /* DeutscheBahnUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2DB42CDB224B94E900118723 /* Build configuration list for PBXNativeTarget "DeutscheBahnUITests" */;
+			buildPhases = (
+				2DB42CC8224B94E900118723 /* Sources */,
+				2DB42CC9224B94E900118723 /* Frameworks */,
+				2DB42CCA224B94E900118723 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2DB42CCE224B94E900118723 /* PBXTargetDependency */,
+			);
+			name = DeutscheBahnUITests;
+			productName = DeutscheBahnUITests;
+			productReference = 2DB42CCC224B94E900118723 /* DeutscheBahnUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2DB42CA5224B94E600118723 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Łojarze";
+				TargetAttributes = {
+					2DB42CAC224B94E600118723 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					2DB42CC0224B94E900118723 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2DB42CAC224B94E600118723;
+					};
+					2DB42CCB224B94E900118723 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 2DB42CAC224B94E600118723;
+					};
+				};
+			};
+			buildConfigurationList = 2DB42CA8224B94E600118723 /* Build configuration list for PBXProject "DeutscheBahn" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2DB42CA4224B94E600118723;
+			productRefGroup = 2DB42CAE224B94E600118723 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2DB42CAC224B94E600118723 /* DeutscheBahn */,
+				2DB42CC0224B94E900118723 /* DeutscheBahnTests */,
+				2DB42CCB224B94E900118723 /* DeutscheBahnUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2DB42CAB224B94E600118723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB42CBB224B94E900118723 /* LaunchScreen.storyboard in Resources */,
+				2DB42CB8224B94E900118723 /* Assets.xcassets in Resources */,
+				2DB42CB6224B94E600118723 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB42CBF224B94E900118723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB42CCA224B94E900118723 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2DB42CA9224B94E600118723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB42CE1224B972700118723 /* TrainTableViewController.swift in Sources */,
+				2DB42CB1224B94E600118723 /* AppDelegate.swift in Sources */,
+				2D5A3481224BC288005B3DC0 /* TrainCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB42CBD224B94E900118723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB42CC6224B94E900118723 /* DeutscheBahnTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2DB42CC8224B94E900118723 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2DB42CD1224B94E900118723 /* DeutscheBahnUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2DB42CC3224B94E900118723 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DB42CAC224B94E600118723 /* DeutscheBahn */;
+			targetProxy = 2DB42CC2224B94E900118723 /* PBXContainerItemProxy */;
+		};
+		2DB42CCE224B94E900118723 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2DB42CAC224B94E600118723 /* DeutscheBahn */;
+			targetProxy = 2DB42CCD224B94E900118723 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2DB42CB4224B94E600118723 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DB42CB5224B94E600118723 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2DB42CB9224B94E900118723 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2DB42CBA224B94E900118723 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2DB42CD3224B94E900118723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2DB42CD4224B94E900118723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2DB42CD6224B94E900118723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeutscheBahn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = politechnika.DeutscheBahn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2DB42CD7224B94E900118723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeutscheBahn/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = politechnika.DeutscheBahn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2DB42CD9224B94E900118723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeutscheBahnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = politechnika.DeutscheBahnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeutscheBahn.app/DeutscheBahn";
+			};
+			name = Debug;
+		};
+		2DB42CDA224B94E900118723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeutscheBahnTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = politechnika.DeutscheBahnTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DeutscheBahn.app/DeutscheBahn";
+			};
+			name = Release;
+		};
+		2DB42CDC224B94E900118723 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeutscheBahnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = politechnika.DeutscheBahnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeutscheBahn;
+			};
+			name = Debug;
+		};
+		2DB42CDD224B94E900118723 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DeutscheBahnUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = politechnika.DeutscheBahnUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = DeutscheBahn;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2DB42CA8224B94E600118723 /* Build configuration list for PBXProject "DeutscheBahn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB42CD3224B94E900118723 /* Debug */,
+				2DB42CD4224B94E900118723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DB42CD5224B94E900118723 /* Build configuration list for PBXNativeTarget "DeutscheBahn" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB42CD6224B94E900118723 /* Debug */,
+				2DB42CD7224B94E900118723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DB42CD8224B94E900118723 /* Build configuration list for PBXNativeTarget "DeutscheBahnTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB42CD9224B94E900118723 /* Debug */,
+				2DB42CDA224B94E900118723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2DB42CDB224B94E900118723 /* Build configuration list for PBXNativeTarget "DeutscheBahnUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DB42CDC224B94E900118723 /* Debug */,
+				2DB42CDD224B94E900118723 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2DB42CA5224B94E600118723 /* Project object */;
+}
