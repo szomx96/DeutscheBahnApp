@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		2D5A3481224BC288005B3DC0 /* TrainCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D5A3480224BC288005B3DC0 /* TrainCell.swift */; };
+		2D7D105D228351FC00B68418 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7D105C228351FC00B68418 /* MainViewController.swift */; };
+		2D7D105F2283523800B68418 /* TrainDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D7D105E2283523800B68418 /* TrainDetailsViewController.swift */; };
+		2D95E1E32284B27900206C80 /* Route.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D95E1E22284B27900206C80 /* Route.swift */; };
 		2DB42CB1224B94E600118723 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB42CB0224B94E600118723 /* AppDelegate.swift */; };
 		2DB42CB6224B94E600118723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB42CB4224B94E600118723 /* Main.storyboard */; };
 		2DB42CB8224B94E900118723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB42CB7224B94E900118723 /* Assets.xcassets */; };
@@ -15,6 +18,7 @@
 		2DB42CC6224B94E900118723 /* DeutscheBahnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB42CC5224B94E900118723 /* DeutscheBahnTests.swift */; };
 		2DB42CD1224B94E900118723 /* DeutscheBahnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB42CD0224B94E900118723 /* DeutscheBahnUITests.swift */; };
 		2DB42CE1224B972700118723 /* TrainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB42CE0224B972700118723 /* TrainTableViewController.swift */; };
+		2DFE91F42282E6CC0029FA02 /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE91F32282E6CC0029FA02 /* Train.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +40,9 @@
 
 /* Begin PBXFileReference section */
 		2D5A3480224BC288005B3DC0 /* TrainCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainCell.swift; sourceTree = "<group>"; };
+		2D7D105C228351FC00B68418 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		2D7D105E2283523800B68418 /* TrainDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainDetailsViewController.swift; sourceTree = "<group>"; };
+		2D95E1E22284B27900206C80 /* Route.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Route.swift; sourceTree = "<group>"; };
 		2DB42CAD224B94E600118723 /* DeutscheBahn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DeutscheBahn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2DB42CB0224B94E600118723 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2DB42CB5224B94E600118723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -49,6 +56,7 @@
 		2DB42CD0224B94E900118723 /* DeutscheBahnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeutscheBahnUITests.swift; sourceTree = "<group>"; };
 		2DB42CD2224B94E900118723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DB42CE0224B972700118723 /* TrainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainTableViewController.swift; sourceTree = "<group>"; };
+		2DFE91F32282E6CC0029FA02 /* Train.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,12 +108,16 @@
 			isa = PBXGroup;
 			children = (
 				2DB42CE0224B972700118723 /* TrainTableViewController.swift */,
+				2D95E1E22284B27900206C80 /* Route.swift */,
 				2DB42CB0224B94E600118723 /* AppDelegate.swift */,
 				2DB42CB4224B94E600118723 /* Main.storyboard */,
+				2D7D105E2283523800B68418 /* TrainDetailsViewController.swift */,
+				2D7D105C228351FC00B68418 /* MainViewController.swift */,
 				2D5A3480224BC288005B3DC0 /* TrainCell.swift */,
 				2DB42CB7224B94E900118723 /* Assets.xcassets */,
 				2DB42CB9224B94E900118723 /* LaunchScreen.storyboard */,
 				2DB42CBC224B94E900118723 /* Info.plist */,
+				2DFE91F32282E6CC0029FA02 /* Train.swift */,
 			);
 			path = DeutscheBahn;
 			sourceTree = "<group>";
@@ -259,9 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2DFE91F42282E6CC0029FA02 /* Train.swift in Sources */,
 				2DB42CE1224B972700118723 /* TrainTableViewController.swift in Sources */,
+				2D7D105F2283523800B68418 /* TrainDetailsViewController.swift in Sources */,
 				2DB42CB1224B94E600118723 /* AppDelegate.swift in Sources */,
 				2D5A3481224BC288005B3DC0 /* TrainCell.swift in Sources */,
+				2D95E1E32284B27900206C80 /* Route.swift in Sources */,
+				2D7D105D228351FC00B68418 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
