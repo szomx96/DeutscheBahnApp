@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 48;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,8 +15,6 @@
 		2DB42CB6224B94E600118723 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB42CB4224B94E600118723 /* Main.storyboard */; };
 		2DB42CB8224B94E900118723 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DB42CB7224B94E900118723 /* Assets.xcassets */; };
 		2DB42CBB224B94E900118723 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DB42CB9224B94E900118723 /* LaunchScreen.storyboard */; };
-		2DB42CC6224B94E900118723 /* DeutscheBahnTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB42CC5224B94E900118723 /* DeutscheBahnTests.swift */; };
-		2DB42CD1224B94E900118723 /* DeutscheBahnUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB42CD0224B94E900118723 /* DeutscheBahnUITests.swift */; };
 		2DB42CE1224B972700118723 /* TrainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DB42CE0224B972700118723 /* TrainTableViewController.swift */; };
 		2DFE91F42282E6CC0029FA02 /* Train.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DFE91F32282E6CC0029FA02 /* Train.swift */; };
 /* End PBXBuildFile section */
@@ -50,11 +48,7 @@
 		2DB42CBA224B94E900118723 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2DB42CBC224B94E900118723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DB42CC1224B94E900118723 /* DeutscheBahnTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeutscheBahnTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DB42CC5224B94E900118723 /* DeutscheBahnTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeutscheBahnTests.swift; sourceTree = "<group>"; };
-		2DB42CC7224B94E900118723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DB42CCC224B94E900118723 /* DeutscheBahnUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DeutscheBahnUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DB42CD0224B94E900118723 /* DeutscheBahnUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeutscheBahnUITests.swift; sourceTree = "<group>"; };
-		2DB42CD2224B94E900118723 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2DB42CE0224B972700118723 /* TrainTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainTableViewController.swift; sourceTree = "<group>"; };
 		2DFE91F32282E6CC0029FA02 /* Train.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Train.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,8 +82,6 @@
 			isa = PBXGroup;
 			children = (
 				2DB42CAF224B94E600118723 /* DeutscheBahn */,
-				2DB42CC4224B94E900118723 /* DeutscheBahnTests */,
-				2DB42CCF224B94E900118723 /* DeutscheBahnUITests */,
 				2DB42CAE224B94E600118723 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -120,24 +112,6 @@
 				2DFE91F32282E6CC0029FA02 /* Train.swift */,
 			);
 			path = DeutscheBahn;
-			sourceTree = "<group>";
-		};
-		2DB42CC4224B94E900118723 /* DeutscheBahnTests */ = {
-			isa = PBXGroup;
-			children = (
-				2DB42CC5224B94E900118723 /* DeutscheBahnTests.swift */,
-				2DB42CC7224B94E900118723 /* Info.plist */,
-			);
-			path = DeutscheBahnTests;
-			sourceTree = "<group>";
-		};
-		2DB42CCF224B94E900118723 /* DeutscheBahnUITests */ = {
-			isa = PBXGroup;
-			children = (
-				2DB42CD0224B94E900118723 /* DeutscheBahnUITests.swift */,
-				2DB42CD2224B94E900118723 /* Info.plist */,
-			);
-			path = DeutscheBahnUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -208,19 +182,22 @@
 				TargetAttributes = {
 					2DB42CAC224B94E600118723 = {
 						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
 					};
 					2DB42CC0224B94E900118723 = {
 						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 2DB42CAC224B94E600118723;
 					};
 					2DB42CCB224B94E900118723 = {
 						CreatedOnToolsVersion = 10.1;
+						ProvisioningStyle = Automatic;
 						TestTargetID = 2DB42CAC224B94E600118723;
 					};
 				};
 			};
 			buildConfigurationList = 2DB42CA8224B94E600118723 /* Build configuration list for PBXProject "DeutscheBahn" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -285,7 +262,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DB42CC6224B94E900118723 /* DeutscheBahnTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,7 +269,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DB42CD1224B94E900118723 /* DeutscheBahnUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -383,7 +358,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -438,12 +413,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -454,10 +428,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DeutscheBahn/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = politechnika.DeutscheBahn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -471,10 +443,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DeutscheBahn/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = politechnika.DeutscheBahn;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -489,11 +459,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DeutscheBahnTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = politechnika.DeutscheBahnTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -509,11 +475,7 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DeutscheBahnTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = politechnika.DeutscheBahnTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -528,11 +490,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DeutscheBahnUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = politechnika.DeutscheBahnUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -547,11 +505,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = DeutscheBahnUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = politechnika.DeutscheBahnUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;

@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PeY-BW-xUd">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="PeY-BW-xUd">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -129,22 +129,23 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Stacja B" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zMF-i2-6ry">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Stacja B" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zMF-i2-6ry">
                                 <rect key="frame" x="45" y="199" width="63" height="21"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <textField opaque="NO" contentMode="scaleToFill" ambiguous="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fyq-EF-RoG" userLabel="Stacja B Input">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Fyq-EF-RoG" userLabel="Stacja B Input">
                                 <rect key="frame" x="147" y="194" width="212" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="212" id="Tdd-sA-8gW"/>
+                                </constraints>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
-                            <textField opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FWL-Ih-jyP" userLabel="Stacja A Input">
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="FWL-Ih-jyP" userLabel="Stacja A Input">
                                 <rect key="frame" x="147" y="96" width="212" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <nil key="textColor"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
@@ -173,11 +174,17 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
+                            <constraint firstItem="Fyq-EF-RoG" firstAttribute="leading" secondItem="FWL-Ih-jyP" secondAttribute="leading" id="12K-Fu-Myq"/>
+                            <constraint firstItem="Fyq-EF-RoG" firstAttribute="trailing" secondItem="v4p-j1-scI" secondAttribute="trailingMargin" id="2Rl-BU-BEs"/>
+                            <constraint firstItem="Fyq-EF-RoG" firstAttribute="leading" secondItem="zMF-i2-6ry" secondAttribute="trailing" constant="39" id="Eg5-NY-gx6"/>
+                            <constraint firstItem="Fyq-EF-RoG" firstAttribute="top" secondItem="FWL-Ih-jyP" secondAttribute="bottom" constant="68" id="QHf-Hb-2E3"/>
                             <constraint firstItem="QtG-DL-lRX" firstAttribute="top" secondItem="v4p-j1-scI" secondAttribute="top" constant="278" id="S2p-ji-yIw"/>
+                            <constraint firstItem="Fyq-EF-RoG" firstAttribute="trailing" secondItem="FWL-Ih-jyP" secondAttribute="trailing" id="X7f-n7-Kw7"/>
                             <constraint firstItem="QtG-DL-lRX" firstAttribute="top" secondItem="Fyq-EF-RoG" secondAttribute="bottom" constant="54" id="Ylg-Vs-UtQ"/>
                             <constraint firstItem="XjK-eI-Ssv" firstAttribute="centerX" secondItem="v4p-j1-scI" secondAttribute="centerX" id="b1W-Sg-xvO"/>
                             <constraint firstItem="Gzu-w1-xc4" firstAttribute="bottom" secondItem="XjK-eI-Ssv" secondAttribute="bottom" constant="71" id="baM-j4-JKp"/>
                             <constraint firstItem="QtG-DL-lRX" firstAttribute="leading" secondItem="Gzu-w1-xc4" secondAttribute="leading" constant="12" id="fF0-50-uBb"/>
+                            <constraint firstItem="Fyq-EF-RoG" firstAttribute="centerY" secondItem="zMF-i2-6ry" secondAttribute="centerY" id="mhN-jR-EEY"/>
                             <constraint firstItem="XjK-eI-Ssv" firstAttribute="centerX" secondItem="QtG-DL-lRX" secondAttribute="centerX" id="qoN-bo-c4M"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Gzu-w1-xc4"/>
